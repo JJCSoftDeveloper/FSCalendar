@@ -64,6 +64,13 @@ typedef NS_OPTIONS(NSUInteger, FSCalendarCaseOptions) {
 @property (strong, nonatomic) UIFont   *headerTitleFont;
 
 /**
+ * The inset of the selection shap  from diameter.
+ */
+@property (assign, nonatomic) CGFloat selectionShapeInset;
+
+@property (assign, nonatomic) CGFloat eventIndicatorHeight;
+
+/**
  * The offset of the day text from default position.
  */
 @property (assign, nonatomic) CGPoint  titleOffset;
